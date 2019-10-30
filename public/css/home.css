@@ -1,0 +1,67 @@
+body {
+    background-image:linear-gradient(to right, green, blue);
+    color:green;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* links within nav container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* by default links are blue this makes them white */
+}
+
+nav a:hover { /*psuedo class which means these only apply when hovering*/
+    border-bottom: 2px blue solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#header01 {
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+
+
+.bodyofPage {
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+.pics {
+    border-style: groove;
+    border-width: 9px;
+    border-color: black;
+
+}
+
+.defText {
+    color: white;
+    font-family: serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#bottomPage {
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    color:white;
+}
+
+
+.sourceText {
+    color:white;
+}
+
+.listBox {
+    display: flex;
+    flex-direction:column;
+}
